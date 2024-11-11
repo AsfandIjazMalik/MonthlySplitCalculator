@@ -1,0 +1,42 @@
+* Documentation: Monthly Rent Calculator
+This program is a simple calculator to compute the total monthly expenses for shared living costs such as rent,
+kitchen expenses, electricity, and gas bills. The expenses are then divided among the number of roommates.
+
+* Features
+
+* User Input:
+The program first asks the user if they want to calculate the total of each expense. If the user responds
+with "yes" or "y", it proceeds to gather details about the monthly expenses.
+
+* Expense Details:
+
+> The user is prompted to enter:
+> Rent of the room.
+> Total kitchen expenses for the month.
+> Total electricity units consumed and the cost per unit.
+> Total gas units consumed and the cost per unit.
+> Number of roommates sharing the expenses.
+> Expense Calculations:
+
+* The program calculates:
+> Total electricity bill by multiplying the total units consumed by the cost per unit.
+> Total gas bill similarly.
+> The total monthly expenses by summing the rent, kitchen expenses, electricity bill, and gas bill.
+> The program also calculates the amount each roommate has to pay by dividing the total expenses by the number of roommates.
+
+* Output:
+
+> The program displays:
+> Detailed breakdown of each expense.
+> Total monthly expenses.
+> The amount each roommate has to pay.
+
+* Key Points:
+> Input Validation:
+The program checks if the user wants to calculate expenses before proceeding.
+
+> Calculation and Clarity:
+The calculations are straightforward, and the results are clearly printed for the user.
+
+> Flexibility:
+The calculator adapts to different numbers of roommates and varying costs per unit of electricity and gas.
